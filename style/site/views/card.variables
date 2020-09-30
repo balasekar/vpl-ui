@@ -1,0 +1,7 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+@background: #232E4A;
+@headerColor: #f2f2f2;
+@metaColor: rgba(255, 255, 255, 0.7);
+@descriptionColor: rgba(255, 255, 255, 0.68);

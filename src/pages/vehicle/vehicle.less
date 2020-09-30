@@ -1,0 +1,47 @@
+.configurator {
+  height: 100%;
+  &-container {
+    margin-top: 7em;
+    height: 100%;
+    margin-left: 5em;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    &-steps {
+      flex-basis: 25%;
+      padding-right: 2em;
+    }
+    &-form {
+      flex-basis: 70%;
+      .ui.form {
+        max-width: 50%!important;
+      }
+      &-buttons {
+        padding-top: 20px;
+      }
+    }
+    &-preview {
+      flex-basis: 20%;
+      padding-right: 2em;
+    }
+  }
+  &-msg {
+    margin-top: 7em;
+    height: 100%;
+    margin-left: 5em;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+  }
+}
+
+.vehicle {
+  margin-top: 7em;
+  height: 100%;
+  margin-left: 5em;
+  &-message {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+  }
+}
